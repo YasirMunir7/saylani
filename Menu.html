@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuisine/Menu</title>
+    <style>
+        * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #fb7c7c;
+  color: #fff;
+  padding: 20px;
+}
+h1{
+    text-align: center;
+    text-decoration-line:underline;
+    color: #333;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+  text-decoration-line: underline;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.products {
+  padding: 20px;
+}
+
+.product-gallery {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product {
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product h3 {
+  margin: 10px 0;
+}
+
+.product p {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.product button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.product button:hover {
+  background-color: #fff;
+  color: #333;
+  border: 2px solid #333;
+}
+
+.cart {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.cart-items {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: #000000;
+}
+footer{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+		<h1>Yasir's Cuisine</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Menu.html">Menu</a></li>
+				<li><a href="About.html">About us</a></li>
+        <li><a href="Timings.html">Timings</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+                
+			</ul>
+		</nav>
+	</header> 
+   
+    <section class="products">
+        <h2>Our Menu</h2>
+        <div class="product-gallery">
+            <div class="product">
+                <img src="Product 2.jpg">
+                <h3>Zinger Burger</h3>
+                <p>399.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="burger.jpg">
+                <h3>Full chiken Burger</h3>
+                <p>Rs/449.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="pizza1.jpg">
+                <h3>Large Pizza</h3>
+                <p>Rs/1199.99</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    <section class="products">
+        <h2>Pizza & Fries</h2>
+        <div class="product-gallery">
+            <div class="product">
+                <img src="pizza.jpg">
+                <h3>Deal with Family</h3>
+                <p>3399.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="fries.jpg">
+                <h3>Burger&Fries</h3>
+                <p>Rs/849.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="pizza2.jpg">
+                <h3>Tandoori Pizza</h3>
+                <p>Rs/999.99</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+		<p>&copy; Yasir Cuisine 2024</p>
+	</footer>
+    <br>
+</body>
+</html>
